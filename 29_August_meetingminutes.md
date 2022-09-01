@@ -7,7 +7,7 @@
 -**Discussed initial task allocation**
 -**Mind Storming**
 -**Serach data set online to support the research**
--**Set period of time**
+-**Set period of time of the data set**
 
 ---
 
@@ -16,4 +16,4 @@
 - prepare ABS Data set
 - Public Transport Victoria data
 - Another other Geospatial API that can assist.
--
+- webscraping the Domain.com housing data
