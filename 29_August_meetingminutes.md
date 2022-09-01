@@ -6,7 +6,7 @@
 
 -**Discussed initial task allocation**
 -**Mind Storming**
--**Serach data set onlne to support the research**
+-**Serach data set online to support the research**
 -**Set period of time**
 
 ---
