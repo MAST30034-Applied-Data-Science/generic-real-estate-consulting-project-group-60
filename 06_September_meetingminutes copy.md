@@ -23,14 +23,19 @@ agent name（TBD）
 House price Increase rate
 
 External data set:(细分到SA2需要用区域名字和右边) 数据2017，2022
-Total population. (2017-2021，用数据预测2022人口by SA2，看看能不能找到数据，需要拿到2017，2022）-》len
-Income. (2017,2022，需要细分到SA2每个区域的收入,不知道怎么拿到2022) -》 Cecily
-Distance to hospital
-Distance to School ()
+Total population. (2017-2021，用数据预测2022人口by SA2，看看能不能找到数据，需要拿到2017，2022）->len,Steven. 👀️/Year
 
-public tranport
+Income. (2017,2022，需要细分到SA2每个区域的收入,不知道怎么拿到2022) -> Cecily,Kevin 👀️/year
 
-Interes rate（Steven TBD？）
+Distance to hospital(需要api或者爬虫找到2022，如果没有就找2021，需要拿到经纬度坐标)
+
+Distance to School (2017-2022)✅已经拿到经纬度
+
+public tranport(找到train站飞机场，经纬度坐标2021/2022) -> Aaron
+
+Interes rate（Steven TBD？）(2017 and. 2022,如果能找到SA2细化的interest rate就可以用，找不到就不用了)->Steven
+
+
 
 
 
