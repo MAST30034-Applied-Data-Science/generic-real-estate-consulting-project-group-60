@@ -1,13 +1,13 @@
-# Meeting Time: Monday 6th September
+# Meeting Time: Tuesday 6th September
 
 ## Members Attended: **Bolin Zheng, Bohan Su, Tianhao Liu, Xinyuan Qiao, Xiaohan Guo**
 
 ### Agenda:
 
 -**Decide the data collectin method**
-SA2 population : Locate Victoria area ,
-SA2 group by postcode ,(Major in East Melbourne) per week, total population.
-Undecided index==(SA2 name), TBD
+SA2 population : Locate the Victoria area ,
+SA2 group by postcode ,(Major in East Melbourne, etc.) per week, total population.
+Undecided index==(SA2 name)( TBD)
 
 -**Mind Storming**
 
@@ -22,28 +22,21 @@ postcode
 agent name（TBD）
 House price Increase rate
 
-External data set:(细分到SA2需要用区域名字和右边) 数据2017，2022
-Total population. (2017-2021，用数据预测2022人口by SA2，看看能不能找到数据，需要拿到2017，2022）->len,Steven. 👀️/Year
+External data set:
 
-Income. (2017,2022，需要细分到SA2每个区域的收入,不知道怎么拿到2022) -> Cecily,Kevin 👀️/year
+(Breakdown to SA2) needs to use area name, Data Year :2017, 2022
 
-Distance to hospital(需要api或者爬虫找到2022，如果没有就找2021，需要拿到经纬度坐标)
+Total population. (2017-2021, use data to predict 2022 population by SA2, decide whether can find the data, need to get 2017, 2022’s data) ->len,Steven. 👀️/Year
 
-Distance to School (2017-2022)✅已经拿到经纬度
+Income. (2017,2022，break down to SA2 region,method to get the data collection need to be decided) -> Cecily,Kevin 👀️/year
 
-public tranport(找到train站飞机场，经纬度坐标2021/2022) -> Aaron
+Distance to hospital(API 2020,2021, Longitude, latitude)
 
-Interes rate（Steven TBD？）(2017 and. 2022,如果能找到SA2细化的interest rate就可以用，找不到就不用了)->Steven
+Distance to School (2017-2022)✅
 
+public tranport(Victoria train station，airport station Longitude, latitude)2021/2022) -> Aaron
 
-
-
-
-1.每个人试跑数据，并且存成csv
-
-2. 每个人每天200条AP I，每天存成API
-3.
-
+Interest rate（Steven TBD？）(2017 and. 2022,Break down to SA2, if cannot find, ignore it)->Steven
 
 -**Using the history sold out **
 -**Geo visulization**
