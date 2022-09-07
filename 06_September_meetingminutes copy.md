@@ -1,4 +1,4 @@
-# Meeting Time: Tuesday 6th September
+# Meeting Time: 6th,7th September
 
 ## Members Attended: **Bolin Zheng, Bohan Su, Tianhao Liu, Xinyuan Qiao, Xiaohan Guo**
 
@@ -21,14 +21,13 @@ Room number
 postcode
 agent name（TBD）
 House price Increase rate
-Income by SA2 2021
-Population by SA2 2017,2021
-Distance to the hospital 
-Distance to the School 
-Distance to the train station 
-Distance to the airport 
 
-External data set:
+
+---
+
+
+
+#### **External data set:**
 
 (Breakdown to SA2) needs to use area name, Data Year :2017, 2022
 
@@ -53,7 +52,15 @@ Interest rate（Steven TBD？）(2017 and. 2022,Break down to SA2, if cannot fin
 
 -**URGENT:**
 
-- prepare ABS Data set
-- Public Transport Victoria data
+- Public Transport Victoria data✅
 - Another other Geospatial API that can assist.
-- webscraping the Domain.com housing data
+- Waiting for the Historical data provided, plan B prepared!!! 👀️
+- Postcode with AS2
+- Predicate the Income(17-20)
+- Inflation and CPI
+
+Summary: Tidy up all features, and waiting for the Historical data : If the data provided is 2017, complete the 2017 data. Or it covers 2017-2021, add all features found.
+
+```
+Plan B: Using the report found about the 2017 summarized historical Data.
+```
