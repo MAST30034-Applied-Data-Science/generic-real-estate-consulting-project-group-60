@@ -21,6 +21,12 @@ Room number
 postcode
 agent name（TBD）
 House price Increase rate
+Income by SA2 2021
+Population by SA2 2017,2021
+Distance to the hospital 
+Distance to the School 
+Distance to the train station 
+Distance to the airport 
 
 External data set:
 
