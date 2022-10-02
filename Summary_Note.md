@@ -7,7 +7,7 @@ Find relative dataset, such as rental prices, public transportation, school loca
 Information for each houses need to be scraped from Domain.com. We have scrapped 15,000 instances of information for houses. The determined features are Longitude, Latitude, Price per week, property type, house area, room number, postcode, and house price increase rate.
 
 ## Use API find distance
-
+Considering that the api is used to find the nearest school or metro station in the area of the house, the requests amount required from the api are limited, making it a very slow efficiency to obtain the data. Using the geolocation formula, the closest school or metro station is calculated directly from the coordinates which is based on the linear distance. The api is then requested to obtain the real distance needed to drive and the estimated road usage time.
 
 
 ## Predict Income and population
