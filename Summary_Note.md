@@ -30,6 +30,18 @@ We choose to create our model based on the features from 2017-2022. The merged D
 
 
 
+## Three big Question
+1. What are the most important internal and external features in predicting rental prices?
+    Using the feature selection method, to see which feature is more correlated to the week rent. 
+    -random forest to do the feature selection 
 
 
+2. What are the top 10 suburbs with the highest predicted growth rate?
+    After we predicting the rental prices, then we groupby the data using the sa2 region with the average rental prices.
+    Comparing the growth rate of the prices from 2017-2025
+
+
+3. What are the most liveable and affordable suburbs according to your chosen metrics?
+    -livable 比较高:改区域的学校较多或者医院较多或者是train较多， 人均可以租到的房子较多（人口/房子的数量）,murder rate,hospital, public spaces 
+    -affordable: 人均income/房子的价格
 
