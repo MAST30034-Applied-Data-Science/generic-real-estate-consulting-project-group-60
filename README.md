@@ -9,7 +9,18 @@ Student IDs: 1079347, 1174455,
 
 **Timeline:** The timeline for the research area is 01/01/2017 - 30/12/2027.
 
+**Datasets:**
+
+* Historical data
+* 2022 data
+
 **External datasets:**
+
+Train station location data: from stored at ___
+
+School Location data: from
+
+
 
 The `requirements.txt`is attached in the root directory, which is produced by the command `pip3 list --format=freeze > requirements.txt`.
 
