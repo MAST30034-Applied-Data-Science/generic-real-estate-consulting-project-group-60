@@ -25,10 +25,12 @@ To run the pipeline, please visit the `scripts` directory first and then visit t
 
 ### Openroute Service API:
 
-provided by 2022 ***openrouteservice***
+Provided by 2022 ***openrouteservice***
 
 Using the open route service API to get the information needed:
 
+* The information needd to be preprocessed first by using the notebook `notebooks/Prepare_distance_to_nowProperty.ipynb`  and the notebook `notebooks/Prep` .
+* Then using he python script `APINowData.py` to get the Information needed by calling the API.
 
 ### 2. Feature Prediction
 
