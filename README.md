@@ -16,7 +16,11 @@ Student IDs: 1079347, 1174455,
 
 **External datasets:**
 
-Train station location data: from stored at ___
+All location data file include: school, police station and train station will be saved into the `data/Geo_data`
+
+* School Location: Train station location data: from stored at ___
+* Police Station:
+* Train Station:
 
 School Location data: from
 
