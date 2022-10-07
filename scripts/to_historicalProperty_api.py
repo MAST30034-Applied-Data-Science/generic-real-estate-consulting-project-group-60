@@ -1,3 +1,8 @@
+# This script will read the data 
+# after preprocessing by the notebook "notebooks/Prepare_distance_to_historicalProperty.ipynb"
+# ANd Get the 'real distance' and time spend of each property(Duration) to both the nearest School and train station
+# For the historical data
+
 import pandas as pd
 from datetime import datetime
 from time import sleep

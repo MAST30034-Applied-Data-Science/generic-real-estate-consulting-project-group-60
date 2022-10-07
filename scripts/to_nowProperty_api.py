@@ -1,6 +1,7 @@
 # This script will read the data 
 # after preprocessing by the notebook "notebooks/Prepare_distance_to_nowProperty.ipynb"
-# ANd Get the 'real distance' and time spend of each property to either the nearest School and train station
+# ANd Get the 'real distance' and time spend of each property(Duration) to both the nearest School and train station
+# For the 2022 data
 
 import pandas as pd
 from datetime import datetime
