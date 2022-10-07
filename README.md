@@ -2,12 +2,12 @@
 
 Group Number: Group 60
 
-Names: Bolin Zheng, Xiaohan Guo,
-Student IDs: 1079347, 1174455,
+Names: Bolin Zheng, Xiaohan Guo, BohanSu
+Student IDs: 1079347, 1174455, 1174197
 
 **Research Goal:** Recommend which region are most likely to increase in rental prices.
 
-**Timeline:** The timeline for the research area is 01/01/2017 - 30/12/2027.
+**Timeline:** The timeline for the research area is 01/01/2017 - 30/12/2025.
 
 **Datasets:**
 
