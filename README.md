@@ -40,7 +40,7 @@ To run the pipeline, please visit the `scripts` directory first and then visit t
 
 ### Openroute Service API:
 
-Provided by 2022 ***openrouteservice***
+Supported by 2022 ***openrouteservice***
 
 Using the open route service API to get the information needed:
 
