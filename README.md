@@ -7,7 +7,7 @@ Student IDs: 1079347, 1174455, 1174197
 
 **Research Goal:** Recommend which region are most likely to increase in rental prices.
 
-**Timeline:** The timeline for the research area is 01/01/2017 - 30/12/2025.
+**Timeline:** The timeline for the research area is 01/01/2017 - 30/12/2027.
 
 **Datasets:**
 
@@ -23,8 +23,6 @@ All location data file include: school, police station and train station will be
 * Train Station:
 
 School Location data: from
-
-
 
 The `requirements.txt`is attached in the root directory, which is produced by the command `pip3 list --format=freeze > requirements.txt`.
 
