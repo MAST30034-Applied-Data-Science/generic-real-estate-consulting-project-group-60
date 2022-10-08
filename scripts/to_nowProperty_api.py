@@ -19,7 +19,7 @@ new_data = new_data.drop(columns=['Unnamed: 0'])
 
 # 14890  rows total
 
-client = openrouteservice.Client(key='',retry_timeout = 60, timeout= 60) # Specify your personal API key
+client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 60, timeout= 60) # Specify your personal API key
 
 count = 0
 
@@ -51,7 +51,7 @@ for index in range(0,14890):
             b = datetime.now()
             if((b-a).seconds <= 45):
                 sleep(random.uniform(20.4,25.34))
-                client = openrouteservice.Client(key='',retry_timeout = 50, timeout= 50)
+                client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                 a = datetime.now()
 
         to_Station_coor_X = new_data.iloc[index,11]
@@ -73,7 +73,7 @@ for index in range(0,14890):
             b = datetime.now()
             if((b-a).seconds <= 45):
                 sleep(random.uniform(20.4,25.34))
-                client = openrouteservice.Client(key='',retry_timeout = 50, timeout= 50)
+                client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                 a = datetime.now()
 
         if (count >= 9999):
@@ -105,7 +105,7 @@ for index in range(0,14890):
                 b = datetime.now()
                 if((b-a).seconds <= 45):
                     sleep(random.uniform(20.4,25.34))
-                    client = openrouteservice.Client(key='',retry_timeout = 50, timeout= 50)
+                    client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                     a = datetime.now()
 
             to_Station_coor_X = new_data.iloc[index,11]
@@ -127,7 +127,7 @@ for index in range(0,14890):
                 b = datetime.now()
                 if((b-a).seconds <= 45):
                     sleep(random.uniform(20.4,25.34))
-                    client = openrouteservice.Client(key='',retry_timeout = 50, timeout= 50)
+                    client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                     a = datetime.now()
 
             if (count >= 9999):

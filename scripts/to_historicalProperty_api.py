@@ -18,7 +18,7 @@ new_data = new_data.drop(columns=['Unnamed: 0'])
 
 # 15895  rows total
 
-client = openrouteservice.Client(key='',retry_timeout = 60, timeout= 60) # Specify your personal API key
+client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 60, timeout= 60) # Specify your personal API key
 
 count = 0
 
@@ -51,7 +51,7 @@ for index in range(0,15895):
             b = datetime.now()
             if((b-a).seconds <= 45):
                 sleep(random.uniform(20.4,25.34))
-                client = openrouteservice.Client(key='',retry_timeout = 50, timeout= 50)
+                client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                 a = datetime.now()
 
         to_Station_coor_X = new_data.iloc[index,12]
@@ -73,7 +73,7 @@ for index in range(0,15895):
             b = datetime.now()
             if((b-a).seconds <= 45):
                 sleep(random.uniform(20.4,25.34))
-                client = openrouteservice.Client(key='',retry_timeout = 50, timeout= 50)
+                client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                 a = datetime.now()
         
 
@@ -102,7 +102,7 @@ for index in range(0,15895):
                 b = datetime.now()
                 if((b-a).seconds <= 45):
                     sleep(random.uniform(20.4,25.34))
-                    client = openrouteservice.Client(key='',retry_timeout = 50, timeout= 50)
+                    client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                     a = datetime.now()
 
             to_Station_coor_X = new_data.iloc[index,12]
@@ -124,7 +124,7 @@ for index in range(0,15895):
                 b = datetime.now()
                 if((b-a).seconds <= 45):
                     sleep(random.uniform(20.4,25.34))
-                    client = openrouteservice.Client(key='5b3ce3597851110001cf6248cbfec5133fcf4e53a12773fc1404ec0b',retry_timeout = 50, timeout= 50)
+                    client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                     a = datetime.now()
             
 
