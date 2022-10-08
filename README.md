@@ -23,7 +23,7 @@ All location data file will be saved into the `data/Geo_data`
 * Train Station: `data/Geo_data/datasource-VIC_Govt_PTV-VIC_Govt_DELWP_datavic_PTV_METRO_TRAIN_STATION.csv` 👀️ From: [https://data.aurin.org.au/dataset/vic-govt-ptv-datavic-ptv-metro-train-station-na/resource/1497b4cf-883f-4910-ba12-49a45c9e36bd](https://data.aurin.org.au/dataset/vic-govt-ptv-datavic-ptv-metro-train-station-na/resource/1497b4cf-883f-4910-ba12-49a45c9e36bd)
 * SA2 area shape file: `data/Geo_data/1270055001_sa2_2016_aust_shape` 👀️ From: [https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument](https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument)
 
-School Location data: from
+
 
 The `requirements.txt`is attached in the root directory, which is produced by the command `pip3 list --format=freeze > requirements.txt`.
 
@@ -43,8 +43,11 @@ Supported by 2022 ***openrouteservice***
 
 Using the open route service API to get the information needed:
 
-* The information needd to be preprocessed first by using the notebook `notebooks/Prepare_distance_to_nowProperty.ipynb`  and the notebook `notebooks/Prep` .
-* Then using he python script `APINowData.py` to get the Information needed by calling the API.
+* The information needed to be preprocessed first by using the notebook `notebooks/Prepare_distance_to_nowProperty.ipynb`  and the notebook `notebooks/Prepare_distance_to_historicalProperty.ipynb` .
+* Then using the python script `scripts/to_nowProperty_api.py` and `scripts/to_historicalProperty_api.py` to get the Information needed by calling the API.
+
+After running the the python scripts above, the informnation would be stored into the file `data/curated`.
+
 
 ### 2. Feature Prediction
 
