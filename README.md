@@ -78,7 +78,7 @@ Data scrape from 1. Domain(2022 Data): https://www.domain.com.au
 
 ### 5. Graph Drawing of Location
 
-All geo-visulization Graph are produced by notebooks  `notebooks/Visulization of maps.ipynb` and `notebooks/Visulization of maps.ipynb`.
+All geo-visulization Graph are produced by notebooks :`notebooks/Visulization of maps.ipynb` and`notebooks/Visulization_API_Compare.ipynb`.
 
 👀️All plots could save into `plots`.
 
