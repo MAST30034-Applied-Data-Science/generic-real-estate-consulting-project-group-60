@@ -2,8 +2,10 @@
 
 Group Number: Group 60
 
-Names: Bolin Zheng, Xiaohan Guo, BohanSu
-Student IDs: 1079347, 1174455, 1174197
+Names: Bolin Zheng, Xiaohan Guo, BohanSu.
+
+
+Student IDs: 1079347, 1174455, 1174197.
 
 **Research Goal:** Recommend which region are most likely to increase in rental prices.
 
@@ -22,8 +24,6 @@ All location data file will be saved into the `data/Geo_data`
 * Police Station: `data/Geo_data/POLICE_STATION.csv` 👀️ From: [https://data.aurin.org.au/dataset/vic-govt-delwp-datavic-vmfeat-police-station-na](https://data.aurin.org.au/dataset/vic-govt-delwp-datavic-vmfeat-police-station-nahttps://)
 * Train Station: `data/Geo_data/datasource-VIC_Govt_PTV-VIC_Govt_DELWP_datavic_PTV_METRO_TRAIN_STATION.csv` 👀️ From: [https://data.aurin.org.au/dataset/vic-govt-ptv-datavic-ptv-metro-train-station-na/resource/1497b4cf-883f-4910-ba12-49a45c9e36bd](https://data.aurin.org.au/dataset/vic-govt-ptv-datavic-ptv-metro-train-station-na/resource/1497b4cf-883f-4910-ba12-49a45c9e36bd)
 * SA2 area shape file: `data/Geo_data/1270055001_sa2_2016_aust_shape` 👀️ From: [https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument](https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument)
-
-
 
 The `requirements.txt`is attached in the root directory, which is produced by the command `pip3 list --format=freeze > requirements.txt`.
 
@@ -49,9 +49,11 @@ Using the open route service API to get the information needed:
 After running the the python scripts above, the informnation would be stored into the file `data/curated`. Called `historical_property.csv` and `new_property.csv`.
 
 ### 2. Feature Prediction(Steven+Cecily)
+
 * `notebooks/Income_prediction.ipynb*`: Predict income by linear regression
 
 ### 3. Data Preprocessing(Kevin+Len+Steven+Aaron)
+
 * `notebooks/Data_preprocess_2017_2021#1`: read the full historic data after scrapping, find the closest SA2 region, merge the population and income into the dataset.
 * `notebooks/Data_preprocessing_2022#2`: read the 2022 current data after scrapping, find the closest SA2 region, merge the population and incoem into the dataset.
 * `notebooks/produce_23_25_data#3`: Produce the 2025-2025 data, including merge the future population and income.
@@ -60,13 +62,10 @@ After running the the python scripts above, the informnation would be stored int
 * `notebooks/data_cleaning#6`: After all the data preprocessing, remove all the outliers inside the 2017-2022 data, to avoid any invalid results.
 * `notebooks/Feature selection#7`: Doing applied the feature selection method using random forest.
 
-
 ### 4. Modelling(Kevin+Len+Steven)
+
 * `notebooks/Random_forest#8`: Random forest model.
-
 * `notebooks/Live__afford_rate.ipynb`: Create livability and affordability rate by the weighted index from feature selection.
-
-
 
 👀️All plots could save into `plots`.
 
