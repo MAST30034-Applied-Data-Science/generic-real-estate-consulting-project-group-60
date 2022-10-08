@@ -42,6 +42,6 @@ We choose to create our model based on the features from 2017-2022. The merged D
 
 
 3. What are the most liveable and affordable suburbs according to your chosen metrics?
-    -livable 比较高:改区域的学校较多或者医院较多或者是train较多， 人均可以租到的房子较多（人口/房子的数量）,murder rate,hospital, public spaces 
-    -affordable: 人均income/房子的价格
+    -livable Relatively high: there are more schools or hospitals or trains in the area, and more houses can be rented per capita (population/number of houses),murder rate,hospital, public spaces 
+    -affordable: Income, distance to school
 
