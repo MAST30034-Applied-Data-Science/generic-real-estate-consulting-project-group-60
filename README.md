@@ -51,6 +51,7 @@ After running the the python scripts above, the informnation would be stored int
 ### 2. Feature Prediction
 
 * `notebooks/Income_prediction.ipynb*`: Predict income by linear regression
+* `notebooks/population_predcition.ipynb*`: Predict population by using population prediction from:[https://www.invest.vic.gov.au/resources/statistics/victoria-in-future-population-and-households-projections-to-2051] and linear regression
 
 ### 3. Data Preprocessing
 
