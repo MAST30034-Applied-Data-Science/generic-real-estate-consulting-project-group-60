@@ -46,6 +46,7 @@ Using the open route service API to get the information needed:
 * Then using he python script `APINowData.py` to get the Information needed by calling the API.
 
 ### 2. Feature Prediction(Steven+Cecily)
+* `notebooks/Income_prediction.ipynb*`: Predict income by linear regression
 
 ### 3. Data Preprocessing(Kevin+Len+Steven+Aaron)
 * `notebooks/Data_preprocess_2017_2021#1`: read the full historic data after scrapping, find the closest SA2 region, merge the population and income into the dataset.
@@ -60,6 +61,7 @@ Using the open route service API to get the information needed:
 ### 4. Modelling(Kevin+Len+Steven)
 * `notebooks/Random_forest#8`: Random forest model.
 
+* `notebooks/Live__afford_rate.ipynb`: Create livability and affordability rate by the weighted index from feature selection.
 
 
 👀️All plots could save into `plots`.
