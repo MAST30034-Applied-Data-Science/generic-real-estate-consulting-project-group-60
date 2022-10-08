@@ -48,11 +48,11 @@ Using the open route service API to get the information needed:
 
 After running the the python scripts above, the informnation would be stored into the file `data/curated`. Called `historical_property.csv` and `new_property.csv`.
 
-### 2. Feature Prediction(Steven+Cecily)
+### 2. Feature Prediction
 
 * `notebooks/Income_prediction.ipynb*`: Predict income by linear regression
 
-### 3. Data Preprocessing(Kevin+Len+Steven+Aaron)
+### 3. Data Preprocessing
 
 * `notebooks/Data_preprocess_2017_2021#1`: read the full historic data after scrapping, find the closest SA2 region, merge the population and income into the dataset.
 * `notebooks/Data_preprocessing_2022#2`: read the 2022 current data after scrapping, find the closest SA2 region, merge the population and incoem into the dataset.
@@ -62,7 +62,7 @@ After running the the python scripts above, the informnation would be stored int
 * `notebooks/data_cleaning#6`: After all the data preprocessing, remove all the outliers inside the 2017-2022 data, to avoid any invalid results.
 * `notebooks/Feature selection#7`: Doing applied the feature selection method using random forest.
 
-### 4. Modelling(Kevin+Len+Steven)
+### 4. Modelling
 
 * `notebooks/Random_forest#8`: Random forest model.
 * `notebooks/Live__afford_rate.ipynb`: Create livability and affordability rate by the weighted index from feature selection.
