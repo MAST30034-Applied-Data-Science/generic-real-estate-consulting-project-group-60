@@ -1,6 +1,13 @@
-# Meeting Time: 3rd October
+# Meeting Time: 3rd ,5th, 7th October
 
 ## Members Attended: **Bolin Zheng, Bohan Su, Tianhao Liu, Xinyuan Qiao, Xiaohan Guo**
+
+Urgent:
+
+Power Point file !!!
+
+Prepare for the presentation!
+
 
 ### Agenda:
 
@@ -11,22 +18,16 @@
 
 -**Mind Storming**
 
-
-
 #### **External data set:**
-
-
 
 -**Using the history sold out **
 -**Geo visulization**
 
 -**data preprocessing**
 
-
-
 -**URGENT:**
 
-
-1. A better feature selection method（Random forest做feature selection+统计模型）
-2. Neural Network, Random forest 
-3. SA2的犯罪率+到医院的距离 ?
+1. A better feature selection method（Random forest for the feature selection+Statistical modelling）
+2. Neural Network, Random forest
+3. SA2's crime ratio
+4. Prepare the code
