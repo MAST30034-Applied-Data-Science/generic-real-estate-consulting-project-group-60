@@ -7,7 +7,7 @@ Student IDs: 1079347, 1174455, 1174197
 
 **Research Goal:** Recommend which region are most likely to increase in rental prices.
 
-**Timeline:** The timeline for the research area is 01/01/2017 - 30/12/2027.
+**Timeline:** The timeline for the research area is 01/01/2017 - 30/12/2025.
 
 **Datasets:**
 
@@ -45,11 +45,22 @@ Using the open route service API to get the information needed:
 * The information needd to be preprocessed first by using the notebook `notebooks/Prepare_distance_to_nowProperty.ipynb`  and the notebook `notebooks/Prep` .
 * Then using he python script `APINowData.py` to get the Information needed by calling the API.
 
-### 2. Feature Prediction
+### 2. Feature Prediction(Steven+Cecily)
 
-### 3. Data Preprocessing
+### 3. Data Preprocessing(Kevin+Len+Steven+Aaron)
+* `notebooks/Data_preprocess_2017_2021#1`: read the full historic data after scrapping, find the closest SA2 region, merge the population and income into the dataset.
+* `notebooks/Data_preprocessing_2022#2`: read the 2022 current data after scrapping, find the closest SA2 region, merge the population and incoem into the dataset.
+* `notebooks/produce_23_25_data#3`: Produce the 2025-2025 data, including merge the future population and income.
+* `notebooks/Data_preprocess_merge_2017_2022#4`: Merge the 2017-2022 data together with a various of data preprocessing.
+* `notebooks/Hospital#5`: Adding the number of hospital nearby inside both 2017-2022 and 2023-2025 data.
+* `notebooks/data_cleaning#6`: After all the data preprocessing, remove all the outliers inside the 2017-2022 data, to avoid any invalid results.
+* `notebooks/Feature selection#7`: Doing applied the feature selection method using random forest.
 
-### 4. Modelling
+
+### 4. Modelling(Kevin+Len+Steven)
+* `notebooks/Random_forest#8`: Random forest model.
+
+
 
 👀️All plots could save into `plots`.
 
