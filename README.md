@@ -2,7 +2,7 @@
 
 Group Number: Group 60
 
-Names: Bolin Zheng, Xiaohan Guo, BohanSu
+Names: Bolin Zheng, Xiaohan Guo, Bohan Su
 Student IDs: 1079347, 1174455, 1174197
 
 **Research Goal:** Recommend which region are most likely to increase in rental prices.
@@ -56,3 +56,5 @@ Using the open route service API to get the information needed:
 👀️All plots could save into `plots`.
 
 Since the folium graph cannot be saved to the computer, using the built-in print function in the web browser to print out the pictures.
+
+爬数据->数据预处理->merge population,income->merge distance->merge hospital->数据预处理
