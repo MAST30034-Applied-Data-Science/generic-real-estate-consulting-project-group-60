@@ -2,10 +2,10 @@
 
 Group Number: Group 60
 
-Names: Bolin Zheng, Xiaohan Guo, BohanSu, XinyuanQiao, TianhaoLiu.
+Names: Bolin Zheng, Xiaohan Guo, BohanSu.
 
 
-Student IDs: 1079347, 1174455, 1174197, 1137963, 1105160.
+Student IDs: 1079347, 1174455, 1174197.
 
 **Research Goal:** Recommend which region are most likely to increase in rental prices.
 
@@ -48,6 +48,7 @@ Using the open route service API to get the information needed:
 
 After running the the python scripts above, the informnation would be stored into the file `data/curated`. Called `historical_property.csv` and `new_property.csv`.
 
+<<<<<<< Updated upstream
 ### Web Scraping
 
 Data scrape from 1. Domain(2022 Data): https://www.domain.com.au
@@ -58,11 +59,14 @@ Data scrape from 1. Domain(2022 Data): https://www.domain.com.au
 * `script/oldListingScrapper.py`: Scrapping the data from OldListing, and the output is the Historical data 
 
 ### 2. Feature Prediction
+=======
+### 2. Feature Prediction(Steven+Cecily)
+>>>>>>> Stashed changes
 
 * `notebooks/Income_prediction.ipynb*`: Predict income by linear regression
 * `notebooks/population_predcition.ipynb*`: Predict population by using population prediction from:[https://www.invest.vic.gov.au/resources/statistics/victoria-in-future-population-and-households-projections-to-2051] and linear regression
 
-### 3. Data Preprocessing
+### 3. Data Preprocessing(Kevin+Len+Steven+Aaron)
 
 * `notebooks/Data_preprocess_2017_2021#1`: read the full historic data after scrapping, find the closest SA2 region, merge the population and income into the dataset.
 * `notebooks/Data_preprocessing_2022#2`: read the 2022 current data after scrapping, find the closest SA2 region, merge the population and incoem into the dataset.
@@ -72,7 +76,7 @@ Data scrape from 1. Domain(2022 Data): https://www.domain.com.au
 * `notebooks/data_cleaning#6`: After all the data preprocessing, remove all the outliers inside the 2017-2022 data, to avoid any invalid results.
 * `notebooks/Feature selection#7`: Doing applied the feature selection method using random forest.
 
-### 4. Modelling
+### 4. Modelling(Kevin+Len+Steven)
 
 * `notebooks/Random_forest#8`: Random forest model.
 * `notebooks/Live__afford_rate.ipynb`: Create livability and affordability rate by the weighted index from feature selection.
