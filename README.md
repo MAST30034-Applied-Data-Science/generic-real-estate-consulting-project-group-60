@@ -48,6 +48,15 @@ Using the open route service API to get the information needed:
 
 After running the the python scripts above, the informnation would be stored into the file `data/curated`. Called `historical_property.csv` and `new_property.csv`.
 
+### Web Scraping
+
+Data scrape from 1. Domain(2022 Data): https://www.domain.com.au
+                 2. OldListing(Historical Data): https://www.oldlistings.com.au
+                 3. WorldPostalCodes(Get full postcode list in VIC): https://www.worldpostalcodes.org/l1/en/au/australia/list/r1/list-of-postcodes-in-victoria
+
+* `script/web_scrapping_2022.py`: Scrapping the data from domain, and the output is the 2022 data
+* `script/oldListingScrapper.py`: Scrapping the data from OldListing, and the output is the Historical data 
+
 ### 2. Feature Prediction
 
 * `notebooks/Income_prediction.ipynb*`: Predict income by linear regression
