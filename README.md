@@ -2,10 +2,10 @@
 
 Group Number: Group 60
 
-Names: Bolin Zheng, Xiaohan Guo, BohanSu.
+Names: Bolin Zheng, Xiaohan Guo, BohanSu, XinyuanQiao, TianhaoLiu.
 
 
-Student IDs: 1079347, 1174455, 1174197.
+Student IDs: 1079347, 1174455, 1174197, 1137963, 1105160.
 
 **Research Goal:** Recommend which region are most likely to increase in rental prices.
 
