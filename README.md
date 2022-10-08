@@ -43,7 +43,7 @@ Supported by 2022 ***openrouteservice***
 
 Using the open route service API to get the information needed:
 
-* The information needed to be preprocessed first by using the notebook `notebooks/Prepare_distance_to_nowProperty.ipynb`  and the notebook `notebooks/Prepare_distance_to_historicalProperty.ipynb` .
+* The information needed to be preprocessed first by using the notebook `notebooks/Prepare_distance_to_nowProperty.ipynb`  and the notebook `notebooks/Prepare_distance_to_historicalProperty.ipynb` . Saving to file `data/curated` , called `historical_property.csv` and `new_property.csv`.
 * Then using the python script `scripts/to_nowProperty_api.py` and `scripts/to_historicalProperty_api.py` to get the Information needed by calling the API.
 
 After running the the python scripts above, the informnation would be stored into the file `data/curated`.
