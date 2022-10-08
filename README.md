@@ -22,14 +22,12 @@ All location data file will be saved into the `data/Geo_data`
 * Police Station: `data/Geo_data/POLICE_STATION.csv` 👀️ From: [https://data.aurin.org.au/dataset/vic-govt-delwp-datavic-vmfeat-police-station-na](https://data.aurin.org.au/dataset/vic-govt-delwp-datavic-vmfeat-police-station-nahttps://)
 * Train Station: `data/Geo_data/datasource-VIC_Govt_PTV-VIC_Govt_DELWP_datavic_PTV_METRO_TRAIN_STATION.csv` 👀️ From: [https://data.aurin.org.au/dataset/vic-govt-ptv-datavic-ptv-metro-train-station-na/resource/1497b4cf-883f-4910-ba12-49a45c9e36bd](https://data.aurin.org.au/dataset/vic-govt-ptv-datavic-ptv-metro-train-station-na/resource/1497b4cf-883f-4910-ba12-49a45c9e36bd)
 * SA2 area shape file: `data/Geo_data/1270055001_sa2_2016_aust_shape` 👀️ From: [https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument](https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202016?OpenDocument)
-*
-*
 
 School Location data: from
 
 The `requirements.txt`is attached in the root directory, which is produced by the command `pip3 list --format=freeze > requirements.txt`.
 
-To run the pipeline, please visit the `scripts` directory first and then visit the `notebooks` directory.
+To run the pipeline, please visit the `scripts` directory first(since the historical data request website is not allowed to using the web script, the historical data has been saveed into the `data/Property` and then visit the `notebooks` directory.
 
 ```
 🚀️ Please run the files listed below In Order !!!!:
