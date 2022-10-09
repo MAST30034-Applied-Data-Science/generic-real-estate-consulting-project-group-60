@@ -56,6 +56,8 @@ Data scrape from 1. Domain(2022 Data): https://www.domain.com.au
 * `script/web_scrapping_2022.py`: Scrapping the data from domain, and the output is the 2022 data
 * `script/oldListingScrapper.py`: Scrapping the data from OldListing, and the output is the Historical data
 
+After running the the python scripts above, the informnation would be stored into the file `data/Property`. Called `15000_property.csv` and `history_data.csv`.
+
 ### 2. Feature Prediction
 
 * `notebooks/Income_prediction.ipynb*`: Predict income by linear regression
@@ -72,7 +74,7 @@ Data scrape from 1. Domain(2022 Data): https://www.domain.com.au
 * `notebooks/Feature selection#7`: Doing applied the feature selection method using random forest.
 
 ### 4. Modelling
-
+* `notebooks/statmodel.ipynb`: ols,glm model
 * `notebooks/Random_forest#8`: Random forest model.
 * `notebooks/Live__afford_rate.ipynb`: Create livability and affordability rate by the weighted index from feature selection.
 
