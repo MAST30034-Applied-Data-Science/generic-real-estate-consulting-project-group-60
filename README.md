@@ -85,3 +85,12 @@ All geo-visulization Graph are produced by notebooks :`notebooks/Visulization of
 👀️All plots could save into `plots`.
 
 Since the folium graph cannot be saved to the computer, using the built-in print function in the web browser to print out the pictures.
+
+### 6. Other visualization
+
+Creating the dataframe about the top10 region, and the csv are used to produce linear and bar plot in Tableau. 
+* `notebooks/visualization_of_rent_growth_rate.ipynb`: Running from top to down would get the csv about some data summary from top 10 region and last 10 region.
+* `notebooks/find_common_feature.ipynb`: Running from top to down would get the csv about the data summary in top 1 region
+
+After running the the python scripts above, the informnation would be stored into the file `data/curated`.
+
