@@ -40,6 +40,8 @@ To run the pipeline, please visit the `scripts` directory first(since the histor
 
 Supported by 2022 ***openrouteservice***
 
+API keys need to request from the website: [https://openrouteservice.org](https://)
+
 Using the open route service API to get the information needed:
 
 * The information needed to be preprocessed first by using the notebook `notebooks/Prepare_distance_to_nowProperty.ipynb`  and the notebook `notebooks/Prepare_distance_to_historicalProperty.ipynb` . Saving to file `data/curated` , called `historical_property.csv` and `new_property.csv`.
@@ -74,6 +76,7 @@ After running the the python scripts above, the informnation would be stored int
 * `notebooks/Feature selection#7`: Doing applied the feature selection method using random forest.
 
 ### 4. Modelling
+
 * `notebooks/statmodel.ipynb`: ols,glm model
 * `notebooks/Random_forest#8`: Random forest model.
 * `notebooks/Live__afford_rate.ipynb`: Create livability and affordability rate by the weighted index from feature selection.
@@ -88,10 +91,10 @@ Since the folium graph cannot be saved to the computer, using the built-in print
 
 ### 6. Other visualization
 
-Creating the dataframe about the top10 region, and the csv are used to produce linear and bar plot in Tableau. 
+Creating the dataframe about the top10 region, and the csv are used to produce linear and bar plot in Tableau.
+
 * `notebooks/visualization_of_rent_growth_rate.ipynb`: Running from top to down would get the csv about some data summary from top 10 region and last 10 region.
 * `notebooks/find_common_feature.ipynb`: Running from top to down would get the csv about the data summary in top 1 region
 * `plots/week_rent_change.twbx`: Opening this work book in Tableau Cloud could generate the plot about the variation of weekly rent in top10 region.
 
 After running the the python scripts above besides tableau workbook, the informnation would be stored into the file `data/curated`.
-
