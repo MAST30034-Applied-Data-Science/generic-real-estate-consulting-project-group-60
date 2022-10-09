@@ -43,10 +43,10 @@ Supported by 2022 ***openrouteservice***
 API keys need to request from the website: [https://openrouteservice.org](https://openrouteservice.orghttps://)
 
 
-
 Using the open route service API to get the information needed:
 
 * The information needed to be preprocessed first by using the notebook `notebooks/Prepare_distance_to_nowProperty.ipynb`  and the notebook `notebooks/Prepare_distance_to_historicalProperty.ipynb` . Saving to file `data/curated` , called `historical_property.csv` and `new_property.csv`.
+* The API keys  stored at the local environment, they can be accessed by running the notebook `notebooks/get_API_keys.ipynb`, and also the `.env` should be added to `.gitignore` file due to the security purpose.
 * Then using the python script `scripts/to_nowProperty_api.py` and `scripts/to_historicalProperty_api.py` to get the Information needed by calling the API.
 
 After running the the python scripts above, the informnation would be stored into the file `data/curated`. Called `historical_property.csv` and `new_property.csv`.
@@ -56,12 +56,8 @@ After running the the python scripts above, the informnation would be stored int
 Data scrape from
 
 1. Domain(2022 Data): [https://www.domain.com.au](https://www.domain.com.au).
-
 2. OldListing(Historical Data): [https://www.oldlistings.com.au](https://www.oldlistings.com.au).
-
 3. WorldPostalCodes(Get full postcode list in VIC): [https://www.worldpostalcodes.org/l1/en/au/australia/list/r1/list-of-postcodes-in-victoria](https://www.worldpostalcodes.org/l1/en/au/australia/list/r1/list-of-postcodes-in-victoria).
-
-
 
 * `script/web_scrapping_2022.py`: Scrapping the data from domain, and the output is the 2022 data
 * `script/oldListingScrapper.py`: Scrapping the data from OldListing, and the output is the Historical data
