@@ -1,14 +1,16 @@
 # Generic Real Estate Consulting Project
 
-Group Number: Group 60
+**Group Number**: Group 60
 
-Names: Bolin Zheng, Xiaohan Guo, BohanSu, XinyuanQiao, TianhaoLiu.
+**Names**: Bolin Zheng, Xiaohan Guo, BohanSu, XinyuanQiao, TianhaoLiu.
 
-Student IDs: 1079347, 1174455, 1174197, 1137963, 1105160.
+**Student IDs**: 1079347, 1174455, 1174197, 1137963, 1105160.
 
 **Research Goal:** Recommend which region are most likely to increase in rental prices.
 
 **Timeline:** The timeline for the research area is 01/01/2017 - 30/12/2027.
+
+**Summary_Notebook**： Summarising the overall approach, please find it at `notebooks/summary_notebook.ipynb`
 
 **Datasets:**
 
@@ -40,7 +42,7 @@ To run the pipeline, please visit the `scripts` directory first(since the histor
 
 Supported by 2022 ***openrouteservice***
 
-API keys was requested from the website: [https://openrouteservice.org](https://openrouteservice.org) and stored into the local environment `.env`.   
+API keys was requested from the website: [https://openrouteservice.org](https://openrouteservice.org) and stored into the local environment `.env`.
 
 Using the open route service API to get the information needed:
 
