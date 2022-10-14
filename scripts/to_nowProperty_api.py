@@ -54,6 +54,9 @@ for index in range(0,14890):
                 client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                 a = datetime.now()
 
+        if (count >= 9999):
+                break
+            
         to_Station_coor_X = new_data.iloc[index,11]
         to_Station_coor_Y = new_data.iloc[index,10]
 
@@ -107,6 +110,8 @@ for index in range(0,14890):
                     sleep(random.uniform(20.4,25.34))
                     client = openrouteservice.Client(key='YOUR_API_KEY',retry_timeout = 50, timeout= 50)
                     a = datetime.now()
+            if (count >= 9999):
+                break
 
             to_Station_coor_X = new_data.iloc[index,11]
             to_Station_coor_Y = new_data.iloc[index,10]
