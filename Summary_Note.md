@@ -7,7 +7,7 @@ Find relative dataset, such as rental prices, public transportation, school loca
 Information for each houses need to be scraped from Domain.com. We have scrapped 15,000 instances of information for houses. The determined features are Longitude, Latitude, Price per week, property type, house area, room number, postcode, and house price increase rate.
 
 ## Use API find distance
-
+Considering that the api is used to find the nearest school or metro station in the area of the house, the requests amount required from the api are limited, making it a very slow efficiency to obtain the data. Using the geolocation formula, the closest school or metro station is calculated directly from the coordinates which is based on the linear distance. The api is then requested to obtain the real distance needed to drive and the estimated road usage time.
 
 
 ## Predict Income and population
@@ -42,6 +42,6 @@ We choose to create our model based on the features from 2017-2022. The merged D
 
 
 3. What are the most liveable and affordable suburbs according to your chosen metrics?
-    -livable 比较高:改区域的学校较多或者医院较多或者是train较多， 人均可以租到的房子较多（人口/房子的数量）,murder rate,hospital, public spaces 
-    -affordable: 人均income/房子的价格
+    -livable Relatively high: there are more schools or hospitals or trains in the area, and more houses can be rented per capita (population/number of houses),murder rate,hospital, public spaces 
+    -affordable: Income, distance to school
 
