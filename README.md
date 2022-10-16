@@ -63,7 +63,7 @@ Data scrape from
 * `script/web_scrapping_2022.py`: Scrapping the data from domain, and the output is the 2022 data
 * `script/oldListingScrapper.py`: Scrapping the data from OldListing, and the output is the Historical data
 
-After running the the python scripts above, the informnation would be stored into the file `data/Property`. Called `15000_property.csv` and `history_data.csv`.
+After running the the python scripts above, the informnation would be stored into the file `data/Property`. Called `15000_property.json` and `history_data.csv`.
 
 ### 2. Feature Prediction
 
